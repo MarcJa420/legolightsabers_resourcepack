@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/amethyst_shard"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1337001}, "model": "item/black_crystal"},
+    {"predicate": {"custom_model_data":1337002}, "model": "item/blue_crystal"},
+    {"predicate": {"custom_model_data":1337003}, "model": "item/green_crystal"},
+    {"predicate": {"custom_model_data":1337004}, "model": "item/orange_crystal"},
+    {"predicate": {"custom_model_data":1337005}, "model": "item/red_crystal"},
+    {"predicate": {"custom_model_data":1337006}, "model": "item/white_crystal"},
+    {"predicate": {"custom_model_data":1337007}, "model": "item/yellow_crystal"}
+  ]
+}
